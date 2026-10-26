@@ -1,0 +1,41 @@
+id,valence,target_en,foil1_en,foil2_en,foil3_en,target_es,foil1_es,foil2_es,foil3_es,image_1200,image_full
+eyes-01,positive,playful,relieved,grateful,hopeful,juguetona,aliviada,agradecida,esperanzada,images/1200x480/eyes-01.jpg,images/full/eyes-01.png
+eyes-02,negative,suspicious,ashamed,bored,disappointed,desconfiado,avergonzado,aburrido,decepcionado,images/1200x480/eyes-02.jpg,images/full/eyes-02.png
+eyes-03,neutral,daydreaming,focused,confused,waiting,soñando despierta,concentrada,confundida,esperando,images/1200x480/eyes-03.jpg,images/full/eyes-03.png
+eyes-04,positive,tender,amused,confident,impressed,tierno,divertido,seguro,impresionado,images/1200x480/eyes-04.jpg,images/full/eyes-04.png
+eyes-05,negative,ashamed,jealous,exhausted,frustrated,avergonzada,celosa,agotada,frustrada,images/1200x480/eyes-05.jpg,images/full/eyes-05.png
+eyes-06,neutral,curious,doubtful,calm,remembering,curioso,poco convencido,tranquilo,recordando,images/1200x480/eyes-06.jpg,images/full/eyes-06.png
+eyes-07,positive,proud,grateful,excited,tender,orgullosa,agradecida,emocionada,tierna,images/1200x480/eyes-07.jpg,images/full/eyes-07.png
+eyes-08,negative,hostile,worried,frustrated,jealous,hostil,preocupado,frustrado,celoso,images/1200x480/eyes-08.jpg,images/full/eyes-08.png
+eyes-09,neutral,focused,confused,remembering,calm,concentrada,confundida,recordando,tranquila,images/1200x480/eyes-09.jpg,images/full/eyes-09.png
+eyes-10,negative,nervous,guilty,hurt,bored,nervioso,culpable,dolido,aburrido,images/1200x480/eyes-10.jpg,images/full/eyes-10.png
+eyes-11,positive,amused,proud,relieved,flirting,divertida,orgullosa,aliviada,coqueta,images/1200x480/eyes-11.jpg,images/full/eyes-11.png
+eyes-12,negative,exhausted,hurt,worried,suspicious,agotado,dolido,preocupado,desconfiado,images/1200x480/eyes-12.jpg,images/full/eyes-12.png
+eyes-13,neutral,confused,curious,waiting,focused,confundida,curiosa,esperando,concentrada,images/1200x480/eyes-13.jpg,images/full/eyes-13.png
+eyes-14,positive,hopeful,confident,amused,grateful,esperanzado,seguro,divertido,agradecido,images/1200x480/eyes-14.jpg,images/full/eyes-14.png
+eyes-15,negative,defiant,ashamed,worried,fed up,desafiante,avergonzada,preocupada,harta,images/1200x480/eyes-15.jpg,images/full/eyes-15.png
+eyes-16,neutral,waiting,remembering,doubtful,focused,esperando,recordando,poco convencido,concentrado,images/1200x480/eyes-16.jpg,images/full/eyes-16.png
+eyes-17,positive,interested,relieved,tender,proud,interesada,aliviada,tierna,orgullosa,images/1200x480/eyes-17.jpg,images/full/eyes-17.png
+eyes-18,negative,guilty,suspicious,defiant,frustrated,culpable,desconfiado,desafiante,frustrado,images/1200x480/eyes-18.jpg,images/full/eyes-18.png
+eyes-19,neutral,watchful,daydreaming,doubtful,calm,alerta,soñando despierta,poco convencida,tranquila,images/1200x480/eyes-19.jpg,images/full/eyes-19.png
+eyes-20,positive,reassuring,excited,proud,hopeful,tranquilizador,emocionado,orgulloso,esperanzado,images/1200x480/eyes-20.jpg,images/full/eyes-20.png
+eyes-21,negative,jealous,mocking,worried,ashamed,celosa,burlona,preocupada,avergonzada,images/1200x480/eyes-21.jpg,images/full/eyes-21.png
+eyes-22,neutral,remembering,focused,waiting,curious,recordando,concentrado,esperando,curioso,images/1200x480/eyes-22.jpg,images/full/eyes-22.png
+eyes-23,positive,flirting,grateful,confident,relieved,coqueta,agradecida,segura,aliviada,images/1200x480/eyes-23.jpg,images/full/eyes-23.png
+eyes-24,negative,bored,hurt,nervous,guilty,aburrido,dolido,nervioso,culpable,images/1200x480/eyes-24.jpg,images/full/eyes-24.png
+eyes-25,neutral,insisting,calm,confused,surprised,insistiendo,tranquila,confundida,sorprendida,images/1200x480/eyes-25.jpg,images/full/eyes-25.png
+eyes-26,positive,relieved,playful,proud,interested,aliviado,juguetón,orgulloso,interesado,images/1200x480/eyes-26.jpg,images/full/eyes-26.png
+eyes-27,negative,hurt,bored,suspicious,hostile,dolida,aburrida,desconfiada,hostil,images/1200x480/eyes-27.jpg,images/full/eyes-27.png
+eyes-28,neutral,doubtful,curious,waiting,daydreaming,poco convencido,curioso,esperando,soñando despierto,images/1200x480/eyes-28.jpg,images/full/eyes-28.png
+eyes-29,positive,grateful,playful,impressed,confident,agradecida,juguetona,impresionada,segura,images/1200x480/eyes-29.jpg,images/full/eyes-29.png
+eyes-30,negative,disappointed,nervous,suspicious,frustrated,decepcionado,nervioso,desconfiado,frustrado,images/1200x480/eyes-30.jpg,images/full/eyes-30.png
+eyes-31,neutral,surprised,confused,watchful,daydreaming,sorprendida,confundida,alerta,soñando despierta,images/1200x480/eyes-31.jpg,images/full/eyes-31.png
+eyes-32,positive,confident,reassuring,hopeful,amused,seguro,tranquilizador,esperanzado,divertido,images/1200x480/eyes-32.jpg,images/full/eyes-32.png
+eyes-33,negative,frustrated,guilty,bored,worried,frustrada,culpable,aburrida,preocupada,images/1200x480/eyes-33.jpg,images/full/eyes-33.png
+eyes-34,neutral,calm,thoughtful,doubtful,insisting,tranquilo,pensativo,poco convencido,insistiendo,images/1200x480/eyes-34.jpg,images/full/eyes-34.png
+eyes-35,positive,excited,tender,relieved,proud,emocionada,tierna,aliviada,orgullosa,images/1200x480/eyes-35.jpg,images/full/eyes-35.png
+eyes-36,negative,mocking,worried,guilty,disappointed,burlón,preocupado,culpable,decepcionado,images/1200x480/eyes-36.jpg,images/full/eyes-36.png
+eyes-37,neutral,thoughtful,curious,waiting,doubtful,pensativa,curiosa,esperando,poco convencida,images/1200x480/eyes-37.jpg,images/full/eyes-37.png
+eyes-38,negative,fed up,nervous,ashamed,jealous,harto,nervioso,avergonzado,celoso,images/1200x480/eyes-38.jpg,images/full/eyes-38.png
+eyes-39,positive,impressed,tender,relieved,playful,impresionada,tierna,aliviada,juguetona,images/1200x480/eyes-39.jpg,images/full/eyes-39.png
+eyes-40,negative,worried,bored,jealous,guilty,preocupado,aburrido,celoso,culpable,images/1200x480/eyes-40.jpg,images/full/eyes-40.png

@@ -1,0 +1,1483 @@
+{
+  "version": "1.0.0",
+  "question": {
+    "en": "Which word best describes what this person is thinking or feeling?",
+    "es": "¿Qué palabra crees que describe mejor lo que esta persona piensa o siente?"
+  },
+  "glossary": {
+    "en": {
+      "amused": "When something seems funny to you.",
+      "ashamed": "When you want to hide because something you did makes you feel bad about yourself.",
+      "bored": "When nothing feels interesting and time seems to go slowly.",
+      "calm": "When you feel still and nothing is bothering you.",
+      "confident": "When you believe you can do something well.",
+      "confused": "When something does not make sense to you.",
+      "curious": "When you want to find out about something new or strange.",
+      "daydreaming": "When your mind drifts far away to other thoughts while you are awake.",
+      "defiant": "When you refuse to do what someone wants and show them you will not give in.",
+      "disappointed": "When something you were hoping for did not happen.",
+      "doubtful": "When you are not sure that something is true.",
+      "excited": "When you can hardly wait for something good that is about to happen.",
+      "exhausted": "When you are so tired that you have no energy left.",
+      "fed up": "When you have had too much of something and cannot take any more.",
+      "flirting": "When you let someone know, in a light and fun way, that you like them.",
+      "focused": "When all your attention is on one thing.",
+      "frustrated": "When you keep trying and something still will not work.",
+      "grateful": "When you want to thank someone for something good they did for you.",
+      "guilty": "When you know you did something wrong and feel bad about it.",
+      "hopeful": "When you believe something good might happen.",
+      "hostile": "When you treat someone like an enemy and want them to back off.",
+      "hurt": "When something someone said or did has made you feel bad inside.",
+      "impressed": "When you think something someone did is really great.",
+      "insisting": "When you keep saying something firmly because you want others to accept it.",
+      "interested": "When you want to know more about something.",
+      "jealous": "When it bothers you that someone else has something or someone you want.",
+      "mocking": "When you are making fun of someone to make them look silly.",
+      "nervous": "When your insides feel jumpy because of something that is about to happen.",
+      "playful": "When you feel like joking around and having fun with someone.",
+      "proud": "When you feel good about something you or someone close to you did well.",
+      "reassuring": "When you are trying to help someone stop worrying.",
+      "relieved": "When a worry goes away and you can finally relax.",
+      "remembering": "When you are thinking about something that happened in the past.",
+      "surprised": "When something happens that you did not expect.",
+      "suspicious": "When you think someone might be lying or hiding something.",
+      "tender": "When you feel gentle and full of love for someone.",
+      "thoughtful": "When you are quietly thinking something over.",
+      "waiting": "When you are passing the time until something happens.",
+      "watchful": "When you keep an eye on what is going on in case something happens.",
+      "worried": "When you keep thinking that something bad might happen.",
+      "upset": "When something has gone wrong and you feel sad or hurt about it.",
+      "sleepy": "When you feel tired and ready to fall asleep.",
+      "scared": "When you feel afraid that something bad is about to happen.",
+      "shy": "When you feel unsure around other people and would rather not be noticed."
+    },
+    "es": {
+      "aburrida": "Cuando nada te parece interesante y el tiempo pasa muy despacio.",
+      "aburrido": "Cuando nada te parece interesante y el tiempo pasa muy despacio.",
+      "agotada": "Cuando tienes tanto cansancio que no te queda nada de energía.",
+      "agotado": "Cuando tienes tanto cansancio que no te queda nada de energía.",
+      "agradecida": "Cuando quieres dar las gracias a alguien por algo bueno que ha hecho por ti.",
+      "agradecido": "Cuando quieres dar las gracias a alguien por algo bueno que ha hecho por ti.",
+      "alerta": "Cuando estás pendiente de lo que pasa a tu alrededor por si ocurre algo.",
+      "aliviada": "Cuando una preocupación desaparece y por fin puedes relajarte.",
+      "aliviado": "Cuando una preocupación desaparece y por fin puedes relajarte.",
+      "avergonzada": "Cuando quieres esconderte porque algo que hiciste te hace sentir mal contigo.",
+      "avergonzado": "Cuando quieres esconderte porque algo que hiciste te hace sentir mal contigo.",
+      "burlona": "Cuando te ríes de alguien para que quede en ridículo.",
+      "burlón": "Cuando te ríes de alguien para que quede en ridículo.",
+      "celosa": "Cuando te molesta que otra persona tenga algo o a alguien que tú quieres.",
+      "celoso": "Cuando te molesta que otra persona tenga algo o a alguien que tú quieres.",
+      "concentrada": "Cuando pones toda tu atención en una sola cosa.",
+      "concentrado": "Cuando pones toda tu atención en una sola cosa.",
+      "confundida": "Cuando algo no tiene sentido para ti.",
+      "coqueta": "Cuando le dejas ver a alguien, de forma ligera y divertida, que te gusta.",
+      "culpable": "Cuando sabes que has hecho algo mal y te sientes mal por ello.",
+      "curiosa": "Cuando quieres descubrir algo nuevo o raro.",
+      "curioso": "Cuando quieres descubrir algo nuevo o raro.",
+      "decepcionado": "Cuando no pasa algo que esperabas.",
+      "desafiante": "Cuando te niegas a hacer lo que alguien quiere y le dejas claro que no vas a ceder.",
+      "desconfiada": "Cuando crees que alguien puede estar mintiendo o escondiendo algo.",
+      "desconfiado": "Cuando crees que alguien puede estar mintiendo o escondiendo algo.",
+      "divertida": "Cuando algo te hace gracia.",
+      "divertido": "Cuando algo te hace gracia.",
+      "dolida": "Cuando algo que alguien ha dicho o hecho te ha hecho daño por dentro.",
+      "dolido": "Cuando algo que alguien ha dicho o hecho te ha hecho daño por dentro.",
+      "emocionada": "Cuando estás deseando que llegue algo bueno que va a pasar pronto.",
+      "emocionado": "Cuando estás deseando que llegue algo bueno que va a pasar pronto.",
+      "esperando": "Cuando pasas el rato hasta que ocurra algo.",
+      "esperanzada": "Cuando crees que algo bueno puede pasar.",
+      "esperanzado": "Cuando crees que algo bueno puede pasar.",
+      "frustrada": "Cuando lo intentas una y otra vez y algo sigue sin salir.",
+      "frustrado": "Cuando lo intentas una y otra vez y algo sigue sin salir.",
+      "harta": "Cuando has aguantado algo demasiado tiempo y ya no puedes más.",
+      "harto": "Cuando has aguantado algo demasiado tiempo y ya no puedes más.",
+      "hostil": "Cuando tratas a alguien como a un enemigo y quieres que se aleje.",
+      "impresionada": "Cuando algo que ha hecho alguien te parece genial.",
+      "impresionado": "Cuando algo que ha hecho alguien te parece genial.",
+      "insistiendo": "Cuando repites algo con firmeza porque quieres que los demás lo acepten.",
+      "interesada": "Cuando quieres saber más sobre algo.",
+      "interesado": "Cuando quieres saber más sobre algo.",
+      "juguetona": "Cuando tienes ganas de bromear y pasarlo bien con alguien.",
+      "juguetón": "Cuando tienes ganas de bromear y pasarlo bien con alguien.",
+      "nervioso": "Cuando sientes un hormigueo inquieto por dentro por algo que está a punto de pasar.",
+      "orgullosa": "Cuando te sientes bien por algo que tú o alguien cercano ha hecho bien.",
+      "orgulloso": "Cuando te sientes bien por algo que tú o alguien cercano ha hecho bien.",
+      "pensativa": "Cuando le das vueltas a algo en silencio.",
+      "pensativo": "Cuando le das vueltas a algo en silencio.",
+      "poco convencida": "Cuando no te crees del todo que algo sea verdad.",
+      "poco convencido": "Cuando no te crees del todo que algo sea verdad.",
+      "preocupada": "Cuando no dejas de pensar que puede pasar algo malo.",
+      "preocupado": "Cuando no dejas de pensar que puede pasar algo malo.",
+      "recordando": "Cuando piensas en algo que pasó hace tiempo.",
+      "segura": "Cuando crees que puedes hacer algo bien.",
+      "seguro": "Cuando crees que puedes hacer algo bien.",
+      "sorprendida": "Cuando pasa algo que no te esperabas.",
+      "soñando despierta": "Cuando tu mente se va lejos, a otras cosas, sin que te hayas dormido.",
+      "soñando despierto": "Cuando tu mente se va lejos, a otras cosas, sin que te hayas dormido.",
+      "tierna": "Cuando sientes mucho cariño y dulzura hacia alguien.",
+      "tierno": "Cuando sientes mucho cariño y dulzura hacia alguien.",
+      "tranquila": "Cuando sientes paz y nada te molesta.",
+      "tranquilizador": "Cuando intentas que alguien deje de preocuparse.",
+      "tranquilo": "Cuando sientes paz y nada te molesta.",
+      "disgustado": "Cuando algo ha salido mal y te sientes triste o dolido por ello.",
+      "adormilado": "Cuando tienes sueño y estás a punto de quedarte dormido.",
+      "asustado": "Cuando tienes miedo de que pase algo malo.",
+      "tímido": "Cuando te sientes inseguro con otras personas y prefieres que no se fijen en ti."
+    }
+  },
+  "items": [
+    {
+      "id": "eyes-01",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "playful",
+          "foils": [
+            "relieved",
+            "grateful",
+            "hopeful"
+          ]
+        },
+        "es": {
+          "target": "juguetona",
+          "foils": [
+            "aliviada",
+            "agradecida",
+            "esperanzada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-01.jpg",
+        "full": "images/full/eyes-01.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 28",
+        "ethnicity": "East Asian",
+        "person_note": "black hair pulled back, a few loose strands at the forehead edge"
+      },
+      "expression": "Brows at their natural height, the outer ends lifted slightly and the left brow a touch higher than the right. Upper lids relaxed, lower lids pushed up a little, with light crow's feet and the small bulge under the lower lid that comes with a genuine smile. Gaze straight into the camera, bright and steady, as if sharing a private joke. Subtle and candid, not posed."
+    },
+    {
+      "id": "eyes-02",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "suspicious",
+          "foils": [
+            "ashamed",
+            "bored",
+            "disappointed"
+          ]
+        },
+        "es": {
+          "target": "desconfiado",
+          "foils": [
+            "avergonzado",
+            "aburrido",
+            "decepcionado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-02.jpg",
+        "full": "images/full/eyes-02.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 46",
+        "ethnicity": "Black",
+        "person_note": "close-cropped hair with the hairline just visible, a faint old scar above the right brow"
+      },
+      "expression": "Brows lowered slightly and drawn a little together, the inner ends pulled down more than the outer ends. Both lids narrowed, the lower lids tensed and straight, no crow's feet. Eyes turned to the side toward something off camera while the head faces forward, holding a guarded, sustained look. Low intensity, a quiet narrowing rather than a glare."
+    },
+    {
+      "id": "eyes-03",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "daydreaming",
+          "foils": [
+            "focused",
+            "confused",
+            "waiting"
+          ]
+        },
+        "es": {
+          "target": "soñando despierta",
+          "foils": [
+            "concentrada",
+            "confundida",
+            "esperando"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-03.jpg",
+        "full": "images/full/eyes-03.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 19",
+        "ethnicity": "Latino",
+        "person_note": "dark wavy hair falling loosely at the forehead edge, brows fully visible"
+      },
+      "expression": "Brows completely relaxed and level, no tension between them. Upper lids slightly lowered, lower lids soft and loose. Gaze drifts up and to the side into empty space, unfocused, as if not really seeing anything in the room. Very mild, the look of someone caught mid-thought in a candid photo."
+    },
+    {
+      "id": "eyes-04",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "tender",
+          "foils": [
+            "amused",
+            "confident",
+            "impressed"
+          ]
+        },
+        "es": {
+          "target": "tierno",
+          "foils": [
+            "divertido",
+            "seguro",
+            "impresionado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-04.jpg",
+        "full": "images/full/eyes-04.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 34",
+        "ethnicity": "South Asian",
+        "person_note": "short black hair, neat thick brows, nothing distracting"
+      },
+      "expression": "Brows soft, the inner ends raised very slightly so the brow line curves gently. Upper lids lowered and relaxed, lower lids lifted softly, faint crow's feet at the outer corners. Gaze directed downward at something close and small, warm and unhurried. Gentle and understated."
+    },
+    {
+      "id": "eyes-05",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "ashamed",
+          "foils": [
+            "jealous",
+            "exhausted",
+            "frustrated"
+          ]
+        },
+        "es": {
+          "target": "avergonzada",
+          "foils": [
+            "celosa",
+            "agotada",
+            "frustrada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-05.jpg",
+        "full": "images/full/eyes-05.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 61",
+        "ethnicity": "white",
+        "person_note": "grey-blonde hair swept off the forehead, fine lines around the eyes"
+      },
+      "expression": "Inner ends of the brows lifted and drawn together in a small wince, the outer ends low, a short crease at the bridge of the nose. Eyes open and awake, not tired: upper lids at normal height, lower lids slightly tensed. Gaze dropping down and to the side at the moment of being seen, the look of someone caught doing something wrong and wishing to be anywhere else. Quiet and contained."
+    },
+    {
+      "id": "eyes-06",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "curious",
+          "foils": [
+            "doubtful",
+            "calm",
+            "remembering"
+          ]
+        },
+        "es": {
+          "target": "curioso",
+          "foils": [
+            "poco convencido",
+            "tranquilo",
+            "recordando"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-06.jpg",
+        "full": "images/full/eyes-06.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 23",
+        "ethnicity": "Middle Eastern",
+        "person_note": "short dark curly hair at the forehead edge, dark full brows"
+      },
+      "expression": "Brows lifted a little, evenly on both sides, the forehead skin just starting to fold. Upper lids raised slightly so more of the iris shows, lower lids relaxed. Gaze direct and alert, eyes fixed on the camera with eager attention. Mild, an open look rather than a surprised stare."
+    },
+    {
+      "id": "eyes-07",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "proud",
+          "foils": [
+            "grateful",
+            "excited",
+            "tender"
+          ]
+        },
+        "es": {
+          "target": "orgullosa",
+          "foils": [
+            "agradecida",
+            "emocionada",
+            "tierna"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-07.jpg",
+        "full": "images/full/eyes-07.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 57",
+        "ethnicity": "Southeast Asian",
+        "person_note": "dark hair with grey streaks at the temples, pulled back"
+      },
+      "expression": "Brows level and slightly raised, relaxed. The head held high so the gaze comes slightly downward at the viewer from a lifted chin, upper lids lowered a fraction, lower lids lifted with soft smile crinkles at the outer corners and a small glint of satisfaction. A composed, pleased, self-satisfied look, as if hearing praise that was deserved. Warm and subtle."
+    },
+    {
+      "id": "eyes-08",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "hostile",
+          "foils": [
+            "worried",
+            "frustrated",
+            "jealous"
+          ]
+        },
+        "es": {
+          "target": "hostil",
+          "foils": [
+            "preocupado",
+            "frustrado",
+            "celoso"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-08.jpg",
+        "full": "images/full/eyes-08.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 38",
+        "ethnicity": "mixed",
+        "person_note": "short curly hair at the forehead edge, light freckles across the bridge of the nose"
+      },
+      "expression": "Brows pulled down and together, the inner ends nearly meeting, with vertical creases at the bridge of the nose. Upper lids pressed down and lower lids tensed, so the eyes are narrowed and flat. Gaze locked straight into the camera, cold and unblinking. Controlled rather than explosive, moderate intensity."
+    },
+    {
+      "id": "eyes-09",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "focused",
+          "foils": [
+            "confused",
+            "remembering",
+            "calm"
+          ]
+        },
+        "es": {
+          "target": "concentrada",
+          "foils": [
+            "confundida",
+            "recordando",
+            "tranquila"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-09.jpg",
+        "full": "images/full/eyes-09.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 42",
+        "ethnicity": "Black",
+        "person_note": "short natural hair, hairline visible at the top of the frame"
+      },
+      "expression": "Brows drawn slightly together and lowered a little, a faint vertical line between them. Lids slightly narrowed and steady, the lower lids a little tense. Gaze pointed down and a little to the side at something close, sharp and fixed, with no wandering. Mild and natural, the look of someone in the middle of a task."
+    },
+    {
+      "id": "eyes-10",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "nervous",
+          "foils": [
+            "guilty",
+            "hurt",
+            "bored"
+          ]
+        },
+        "es": {
+          "target": "nervioso",
+          "foils": [
+            "culpable",
+            "dolido",
+            "aburrido"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-10.jpg",
+        "full": "images/full/eyes-10.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 20",
+        "ethnicity": "East Asian",
+        "person_note": "straight black hair with a light fringe ending well above the brows"
+      },
+      "expression": "Inner ends of the brows lifted and pulled together, giving a slight upward slant and faint horizontal lines across the lower forehead. Upper lids raised a little, lower lids tight. Eyes glance quickly off to the side, as if checking on something. Low intensity, uneasy rather than frightened."
+    },
+    {
+      "id": "eyes-11",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "amused",
+          "foils": [
+            "proud",
+            "relieved",
+            "flirting"
+          ]
+        },
+        "es": {
+          "target": "divertida",
+          "foils": [
+            "orgullosa",
+            "aliviada",
+            "coqueta"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-11.jpg",
+        "full": "images/full/eyes-11.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 70",
+        "ethnicity": "South Asian",
+        "person_note": "silver hair parted at the forehead, soft grey brows"
+      },
+      "expression": "Brows relaxed with the outer ends lifted slightly. Lower lids pushed up into a gentle crescent, with deep crow's feet and the soft bulge under the lower lid that comes with a genuine smile. Gaze directed off to the side at something happening out of frame, bright and attentive. Light and natural, the moment just before a laugh."
+    },
+    {
+      "id": "eyes-12",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "exhausted",
+          "foils": [
+            "hurt",
+            "worried",
+            "suspicious"
+          ]
+        },
+        "es": {
+          "target": "agotado",
+          "foils": [
+            "dolido",
+            "preocupado",
+            "desconfiado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-12.jpg",
+        "full": "images/full/eyes-12.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 52",
+        "ethnicity": "Latino",
+        "person_note": "dark hair receding at the temples, faint grey at the brow ends"
+      },
+      "expression": "Brows low and flat with no lift, the outer ends drooping. Upper lids heavy and drooping over the top of the iris, lower lids slack, with faint puffiness and darkness under the eyes. Gaze roughly toward the camera but unfocused and dull. Quiet and drained, without any drama."
+    },
+    {
+      "id": "eyes-13",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "confused",
+          "foils": [
+            "curious",
+            "waiting",
+            "focused"
+          ]
+        },
+        "es": {
+          "target": "confundida",
+          "foils": [
+            "curiosa",
+            "esperando",
+            "concentrada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-13.jpg",
+        "full": "images/full/eyes-13.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 31",
+        "ethnicity": "Middle Eastern",
+        "person_note": "dark hair tucked behind the ears, thick natural brows"
+      },
+      "expression": "Brows drawn together at the inner ends, the right brow slightly higher than the left, with a small crease at the bridge of the nose. Upper lids slightly narrowed, lower lids tense. Gaze direct at the camera, searching, as if trying to make sense of what was just said. Mild and candid."
+    },
+    {
+      "id": "eyes-14",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "hopeful",
+          "foils": [
+            "confident",
+            "amused",
+            "grateful"
+          ]
+        },
+        "es": {
+          "target": "esperanzado",
+          "foils": [
+            "seguro",
+            "divertido",
+            "agradecido"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-14.jpg",
+        "full": "images/full/eyes-14.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 66",
+        "ethnicity": "white",
+        "person_note": "thinning grey hair, bushy grey brows"
+      },
+      "expression": "Inner ends of the brows lifted slightly, the forehead softly lined. Upper lids open, lower lids relaxed, with a hint of crow's feet at the outer corners. Gaze directed upward and into the distance, focused on something far away. Soft and quiet, more inward than excited."
+    },
+    {
+      "id": "eyes-15",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "defiant",
+          "foils": [
+            "ashamed",
+            "worried",
+            "fed up"
+          ]
+        },
+        "es": {
+          "target": "desafiante",
+          "foils": [
+            "avergonzada",
+            "preocupada",
+            "harta"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-15.jpg",
+        "full": "images/full/eyes-15.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 22",
+        "ethnicity": "Southeast Asian",
+        "person_note": "long dark hair pulled back tightly, clean forehead edge"
+      },
+      "expression": "Brows lowered slightly and held straight, not drawn tightly together. Upper lids steady and a little lowered, lower lids firm. Gaze held straight into the camera without blinking, looking slightly upward from a lowered head, as if refusing to look away first. Calm but unyielding, low key."
+    },
+    {
+      "id": "eyes-16",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "waiting",
+          "foils": [
+            "remembering",
+            "doubtful",
+            "focused"
+          ]
+        },
+        "es": {
+          "target": "esperando",
+          "foils": [
+            "recordando",
+            "poco convencido",
+            "concentrado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-16.jpg",
+        "full": "images/full/eyes-16.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 29",
+        "ethnicity": "Black",
+        "person_note": "short twists at the forehead edge, brows fully visible"
+      },
+      "expression": "Brows level and relaxed, with a very slight lift. Lids open normally, lower lids soft. Gaze directed off to the side toward a point in the distance, as if watching a door, attentive but patient. Neutral and low key."
+    },
+    {
+      "id": "eyes-17",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "interested",
+          "foils": [
+            "relieved",
+            "tender",
+            "proud"
+          ]
+        },
+        "es": {
+          "target": "interesada",
+          "foils": [
+            "aliviada",
+            "tierna",
+            "orgullosa"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-17.jpg",
+        "full": "images/full/eyes-17.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 45",
+        "ethnicity": "mixed",
+        "person_note": "freckles across the bridge of the nose, curly hair at the forehead edge"
+      },
+      "expression": "Brows raised slightly, the outer ends lifting a little more than the inner ends. Upper lids open and alert, lower lids lifted softly with faint crow's feet. Gaze direct into the camera, focused and engaged, as if listening closely to someone. Pleasant and mild."
+    },
+    {
+      "id": "eyes-18",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "guilty",
+          "foils": [
+            "suspicious",
+            "defiant",
+            "frustrated"
+          ]
+        },
+        "es": {
+          "target": "culpable",
+          "foils": [
+            "desconfiado",
+            "desafiante",
+            "frustrado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-18.jpg",
+        "full": "images/full/eyes-18.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 58",
+        "ethnicity": "Middle Eastern",
+        "person_note": "short grey hair, a few deep forehead lines"
+      },
+      "expression": "Inner ends of the brows lifted slightly, the brows pinched a little together. Upper lids lowered, lower lids slightly tense. Gaze slides down and off to one side, briefly avoiding the camera, as if expecting to be found out. Low intensity, uneasy and quiet."
+    },
+    {
+      "id": "eyes-19",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "watchful",
+          "foils": [
+            "daydreaming",
+            "doubtful",
+            "calm"
+          ]
+        },
+        "es": {
+          "target": "alerta",
+          "foils": [
+            "soñando despierta",
+            "poco convencida",
+            "tranquila"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-19.jpg",
+        "full": "images/full/eyes-19.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 36",
+        "ethnicity": "Latino",
+        "person_note": "dark hair in a low ponytail, clean forehead edge"
+      },
+      "expression": "Brows level and steady, a touch lowered. Lids open and still, lower lids slightly tensed. Eyes turned to the side, tracking something out of frame with full attention, without blinking. Calm and alert, not alarmed."
+    },
+    {
+      "id": "eyes-20",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "reassuring",
+          "foils": [
+            "excited",
+            "proud",
+            "hopeful"
+          ]
+        },
+        "es": {
+          "target": "tranquilizador",
+          "foils": [
+            "emocionado",
+            "orgulloso",
+            "esperanzado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-20.jpg",
+        "full": "images/full/eyes-20.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 63",
+        "ethnicity": "East Asian",
+        "person_note": "grey hair, thin rimless glasses"
+      },
+      "expression": "Brows relaxed and slightly raised at the inner ends, giving a soft, open shape. Upper lids gently lowered, lower lids lifted with warm crow's feet at the outer corners. Gaze direct and steady into the camera, holding eye contact kindly, as if saying it will be all right. Gentle and calm, very understated."
+    },
+    {
+      "id": "eyes-21",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "jealous",
+          "foils": [
+            "mocking",
+            "worried",
+            "ashamed"
+          ]
+        },
+        "es": {
+          "target": "celosa",
+          "foils": [
+            "burlona",
+            "preocupada",
+            "avergonzada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-21.jpg",
+        "full": "images/full/eyes-21.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 27",
+        "ethnicity": "white",
+        "person_note": "light brown hair with a side part at the forehead edge, light freckles"
+      },
+      "expression": "Brows lowered slightly and drawn a little together, the outer ends flat. Upper lids lowered and lower lids tensed, narrowing the eyes. Eyes turned sideways toward someone out of frame, lingering with a resentful sidelong look. Subtle and simmering, not openly angry."
+    },
+    {
+      "id": "eyes-22",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "remembering",
+          "foils": [
+            "focused",
+            "waiting",
+            "curious"
+          ]
+        },
+        "es": {
+          "target": "recordando",
+          "foils": [
+            "concentrado",
+            "esperando",
+            "curioso"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-22.jpg",
+        "full": "images/full/eyes-22.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 74",
+        "ethnicity": "Southeast Asian",
+        "person_note": "short white hair, white brows, deep lines at the outer corners of the eyes"
+      },
+      "expression": "Brows relaxed with a faint lift at the inner ends. Upper lids slightly lowered, lower lids soft, the deep lines at the outer corners at rest. Gaze directed up and to the side, unfocused on the room, as if looking back at something from long ago. Quiet and inward."
+    },
+    {
+      "id": "eyes-23",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "flirting",
+          "foils": [
+            "grateful",
+            "confident",
+            "relieved"
+          ]
+        },
+        "es": {
+          "target": "coqueta",
+          "foils": [
+            "agradecida",
+            "segura",
+            "aliviada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-23.jpg",
+        "full": "images/full/eyes-23.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 33",
+        "ethnicity": "Black",
+        "person_note": "natural curls at the forehead edge, brows fully visible"
+      },
+      "expression": "One brow lifted slightly higher than the other, the outer ends raised. Upper lids lowered a little in a lazy, half-hooded way, lower lids lifted with light crow's feet. Gaze directed at the camera from slightly under the brows, holding eye contact a beat longer than usual. Subtle and knowing, never exaggerated."
+    },
+    {
+      "id": "eyes-24",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "bored",
+          "foils": [
+            "hurt",
+            "nervous",
+            "guilty"
+          ]
+        },
+        "es": {
+          "target": "aburrido",
+          "foils": [
+            "dolido",
+            "nervioso",
+            "culpable"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-24.jpg",
+        "full": "images/full/eyes-24.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 25",
+        "ethnicity": "white",
+        "person_note": "messy light brown hair at the forehead edge"
+      },
+      "expression": "Brows flat and low with no tension. Upper lids heavy and half lowered, lower lids slack, but the skin under the eyes fresh and rested. Gaze drifts to the side and slightly down, glazed and uninterested, not tracking anything. Flat and very low energy."
+    },
+    {
+      "id": "eyes-25",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "insisting",
+          "foils": [
+            "calm",
+            "confused",
+            "surprised"
+          ]
+        },
+        "es": {
+          "target": "insistiendo",
+          "foils": [
+            "tranquila",
+            "confundida",
+            "sorprendida"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-25.jpg",
+        "full": "images/full/eyes-25.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 50",
+        "ethnicity": "East Asian",
+        "person_note": "short black hair with a few grey strands, cut above the brows"
+      },
+      "expression": "Brows drawn slightly together with the inner ends lifted a little, a short crease between them. Lids open and held firm, lower lids tensed. Gaze direct and unwavering into the camera, earnest and pressing, as if making a point for the second time. Moderate intensity, firm but not angry."
+    },
+    {
+      "id": "eyes-26",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "relieved",
+          "foils": [
+            "playful",
+            "proud",
+            "interested"
+          ]
+        },
+        "es": {
+          "target": "aliviado",
+          "foils": [
+            "juguetón",
+            "orgulloso",
+            "interesado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-26.jpg",
+        "full": "images/full/eyes-26.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 41",
+        "ethnicity": "South Asian",
+        "person_note": "neat black hair with a side part, thick brows"
+      },
+      "expression": "Brows raised and just beginning to relax, the forehead smoothing out after tension. Eyes rolling gently upward toward the sky in a thank-goodness look, the upper lids softening, the lower lids lifted into a faint smile crinkle at the outer corners. The eyes of someone letting out a long breath after good news. Soft, quiet, nothing sad in it."
+    },
+    {
+      "id": "eyes-27",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "hurt",
+          "foils": [
+            "bored",
+            "suspicious",
+            "hostile"
+          ]
+        },
+        "es": {
+          "target": "dolida",
+          "foils": [
+            "aburrida",
+            "desconfiada",
+            "hostil"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-27.jpg",
+        "full": "images/full/eyes-27.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 24",
+        "ethnicity": "South Asian",
+        "person_note": "long dark hair parted in the middle, a tiny scar near the right temple"
+      },
+      "expression": "Inner ends of the brows lifted and drawn slightly together, the outer ends low. Upper lids slightly lowered, lower lids tense, the eyes a little glassy. Gaze direct into the camera, steady and wounded, as if looking at the person who caused it. Restrained, no tears falling."
+    },
+    {
+      "id": "eyes-28",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "doubtful",
+          "foils": [
+            "curious",
+            "waiting",
+            "daydreaming"
+          ]
+        },
+        "es": {
+          "target": "poco convencido",
+          "foils": [
+            "curioso",
+            "esperando",
+            "soñando despierto"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-28.jpg",
+        "full": "images/full/eyes-28.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 55",
+        "ethnicity": "mixed",
+        "person_note": "short greying hair, salt and pepper brows"
+      },
+      "expression": "One brow raised a little higher than the other, the lower brow pulled slightly down. Lids narrowed a fraction, lower lids tensed. Gaze direct into the camera with a measuring, unconvinced look, as if weighing what was just said. Mild and dry."
+    },
+    {
+      "id": "eyes-29",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "grateful",
+          "foils": [
+            "playful",
+            "impressed",
+            "confident"
+          ]
+        },
+        "es": {
+          "target": "agradecida",
+          "foils": [
+            "juguetona",
+            "impresionada",
+            "segura"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-29.jpg",
+        "full": "images/full/eyes-29.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 68",
+        "ethnicity": "Latino",
+        "person_note": "grey hair, faint freckles, soft grey brows"
+      },
+      "expression": "Inner ends of the brows lifted gently, the brows soft and open. Upper lids slightly lowered, lower lids lifted with crow's feet at the outer corners, the eyes a little moist. Gaze direct into the camera, warm and steady. Heartfelt but subtle."
+    },
+    {
+      "id": "eyes-30",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "disappointed",
+          "foils": [
+            "nervous",
+            "suspicious",
+            "frustrated"
+          ]
+        },
+        "es": {
+          "target": "decepcionado",
+          "foils": [
+            "nervioso",
+            "desconfiado",
+            "frustrado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-30.jpg",
+        "full": "images/full/eyes-30.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 31",
+        "ethnicity": "Southeast Asian",
+        "person_note": "short black hair with a side part, nothing distracting"
+      },
+      "expression": "Inner ends of the brows lifted slightly, the outer ends sinking, a faint crease between them. Upper lids lowered, lower lids loose. Gaze drops downward and slightly to the side, losing focus. Low key and deflated, not tearful."
+    },
+    {
+      "id": "eyes-31",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "surprised",
+          "foils": [
+            "confused",
+            "watchful",
+            "daydreaming"
+          ]
+        },
+        "es": {
+          "target": "sorprendida",
+          "foils": [
+            "confundida",
+            "alerta",
+            "soñando despierta"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-31.jpg",
+        "full": "images/full/eyes-31.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 39",
+        "ethnicity": "white",
+        "person_note": "auburn hair pulled back, clean forehead edge"
+      },
+      "expression": "Brows raised high and evenly curved, with horizontal lines across the forehead. Upper lids lifted so a thin band of white shows above the iris, lower lids relaxed. Gaze direct into the camera, fixed and wide. Brief and natural, a mild surprise rather than shock."
+    },
+    {
+      "id": "eyes-32",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "confident",
+          "foils": [
+            "reassuring",
+            "hopeful",
+            "amused"
+          ]
+        },
+        "es": {
+          "target": "seguro",
+          "foils": [
+            "tranquilizador",
+            "esperanzado",
+            "divertido"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-32.jpg",
+        "full": "images/full/eyes-32.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 27",
+        "ethnicity": "Middle Eastern",
+        "person_note": "short dark hair, well-groomed dark brows"
+      },
+      "expression": "Brows level and relaxed, neither raised nor lowered. Upper lids slightly lowered in a calm way, lower lids lifted just a little with faint crow's feet. Gaze steady and direct into the camera, unhurried and sure. Composed and understated."
+    },
+    {
+      "id": "eyes-33",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "frustrated",
+          "foils": [
+            "guilty",
+            "bored",
+            "worried"
+          ]
+        },
+        "es": {
+          "target": "frustrada",
+          "foils": [
+            "culpable",
+            "aburrida",
+            "preocupada"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-33.jpg",
+        "full": "images/full/eyes-33.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 44",
+        "ethnicity": "Southeast Asian",
+        "person_note": "dark hair in a messy bun with loose strands at the forehead edge"
+      },
+      "expression": "Brows pulled down and together, with short vertical creases at the bridge of the nose. Lids narrowed, the lower lids tight. Gaze directed down at something in front, as if staring at a problem that will not give. Moderate and tight, held in rather than shown off."
+    },
+    {
+      "id": "eyes-34",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "calm",
+          "foils": [
+            "thoughtful",
+            "doubtful",
+            "insisting"
+          ]
+        },
+        "es": {
+          "target": "tranquilo",
+          "foils": [
+            "pensativo",
+            "poco convencido",
+            "insistiendo"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-34.jpg",
+        "full": "images/full/eyes-34.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 60",
+        "ethnicity": "Black",
+        "person_note": "short grey hair receding at the temples, grey in the brows"
+      },
+      "expression": "Brows completely relaxed and level, the forehead smooth. Upper lids resting slightly lowered, lower lids soft, faint lines at the outer corners at rest. Gaze direct into the camera, even and unhurried, with no tension anywhere around the eyes. Neutral and still."
+    },
+    {
+      "id": "eyes-35",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "excited",
+          "foils": [
+            "tender",
+            "relieved",
+            "proud"
+          ]
+        },
+        "es": {
+          "target": "emocionada",
+          "foils": [
+            "tierna",
+            "aliviada",
+            "orgullosa"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-35.jpg",
+        "full": "images/full/eyes-35.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 18",
+        "ethnicity": "mixed",
+        "person_note": "curly hair pulled up, short curls at the forehead edge"
+      },
+      "expression": "Brows lifted, the outer ends raised. Upper lids wide open, lower lids pushed up with crow's feet and the bulge under the lower lid of a genuine smile, the eyes bright. Gaze directed off to the side toward something arriving out of frame. Lively but natural, caught in the moment."
+    },
+    {
+      "id": "eyes-36",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "mocking",
+          "foils": [
+            "worried",
+            "guilty",
+            "disappointed"
+          ]
+        },
+        "es": {
+          "target": "burlón",
+          "foils": [
+            "preocupado",
+            "culpable",
+            "decepcionado"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-36.jpg",
+        "full": "images/full/eyes-36.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 36",
+        "ethnicity": "East Asian",
+        "person_note": "black hair swept up off the forehead"
+      },
+      "expression": "One brow raised clearly higher than the other, the outer end of the raised brow arched. Upper lids lowered into a heavy half-hooded look, lower lids lifted slightly with faint crow's feet. Gaze direct into the camera, looking down from slightly above, cool and condescending. Subtle and dry, not exaggerated."
+    },
+    {
+      "id": "eyes-37",
+      "valence": "neutral",
+      "words": {
+        "en": {
+          "target": "thoughtful",
+          "foils": [
+            "curious",
+            "waiting",
+            "doubtful"
+          ]
+        },
+        "es": {
+          "target": "pensativa",
+          "foils": [
+            "curiosa",
+            "esperando",
+            "poco convencida"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-37.jpg",
+        "full": "images/full/eyes-37.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 64",
+        "ethnicity": "Middle Eastern",
+        "person_note": "dark grey hair swept back from the forehead, soft grey brows"
+      },
+      "expression": "Brows drawn very slightly together, the inner ends a touch lowered, a faint line between them. Upper lids lowered, lower lids relaxed. Gaze directed down and to the side, turned inward rather than on anything in the room. Quiet and calm, very low intensity."
+    },
+    {
+      "id": "eyes-38",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "fed up",
+          "foils": [
+            "nervous",
+            "ashamed",
+            "jealous"
+          ]
+        },
+        "es": {
+          "target": "harto",
+          "foils": [
+            "nervioso",
+            "avergonzado",
+            "celoso"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-38.jpg",
+        "full": "images/full/eyes-38.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 48",
+        "ethnicity": "mixed",
+        "person_note": "short wavy hair at the forehead edge, a small scar at the outer end of the left brow"
+      },
+      "expression": "Brows lowered and flat, slightly drawn together. Upper lids heavy, lower lids tight. Eyes rolled upward and to the side, away from the camera, as if unable to bear one more thing. Moderate, weary irritation rather than rage."
+    },
+    {
+      "id": "eyes-39",
+      "valence": "positive",
+      "words": {
+        "en": {
+          "target": "impressed",
+          "foils": [
+            "tender",
+            "relieved",
+            "playful"
+          ]
+        },
+        "es": {
+          "target": "impresionada",
+          "foils": [
+            "tierna",
+            "aliviada",
+            "juguetona"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-39.jpg",
+        "full": "images/full/eyes-39.png"
+      },
+      "person": {
+        "sex": "female",
+        "age": "about 53",
+        "ethnicity": "South Asian",
+        "person_note": "black hair with a few grey strands, thin dark-rimmed glasses"
+      },
+      "expression": "Brows raised moderately and evenly on both sides, the forehead lightly lined. Upper lids lifted, lower lids raised a little with faint crow's feet. Gaze directed off to the side at something out of frame, steady and admiring. Mild and appreciative."
+    },
+    {
+      "id": "eyes-40",
+      "valence": "negative",
+      "words": {
+        "en": {
+          "target": "worried",
+          "foils": [
+            "bored",
+            "jealous",
+            "guilty"
+          ]
+        },
+        "es": {
+          "target": "preocupado",
+          "foils": [
+            "aburrido",
+            "celoso",
+            "culpable"
+          ]
+        }
+      },
+      "image": {
+        "1200x480": "images/1200x480/eyes-40.jpg",
+        "full": "images/full/eyes-40.png"
+      },
+      "person": {
+        "sex": "male",
+        "age": "about 75",
+        "ethnicity": "Latino",
+        "person_note": "white hair at the forehead edge, white bushy brows"
+      },
+      "expression": "Inner ends of the brows lifted and drawn together, making horizontal lines across the middle of the forehead. Upper lids raised slightly, lower lids tensed. Gaze directed off to the side and slightly down, fixed on nothing, as if turning over a problem. Low intensity, a quiet strain."
+    }
+  ],
+  "practice": {
+    "id": "eyes-practice",
+    "valence": "negative",
+    "words": {
+      "en": {
+        "target": "upset",
+        "foils": [
+          "sleepy",
+          "shy",
+          "scared"
+        ]
+      },
+      "es": {
+        "target": "disgustado",
+        "foils": [
+          "adormilado",
+          "tímido",
+          "asustado"
+        ]
+      }
+    },
+    "image": {
+      "1200x480": "images/1200x480/eyes-practice.jpg",
+      "full": "images/full/eyes-practice.png"
+    },
+    "person": {
+      "sex": "male",
+      "age": "about 55",
+      "ethnicity": "Black",
+      "person_note": "grey at the temples"
+    },
+    "expression": "Brows drawn together and lifted at the inner ends, eyes slightly glassy, gaze a little downward. Hurt rather than angry."
+  }
+}
