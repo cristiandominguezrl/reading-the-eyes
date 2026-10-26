@@ -2,7 +2,7 @@
 
 # Reading the Eyes
 
-Can you tell what someone feels from their eyes alone?
+Reading the Eyes is a test of how well you read facial expressions when only the eyes are showing.
 
 **[Take the test at neuropsych.io](https://neuropsych.io/tests/reading-the-eyes/)** &nbsp;&middot;&nbsp; **[Hazlo en español](https://neuropsych.io/es/tests/reading-the-eyes/)**
 
@@ -19,36 +19,27 @@ Can you tell what someone feels from their eyes alone?
   </tr>
 </table>
 
-## What this is
+There are forty photographs, each with four words beside it and one right answer. Twenty of them make up the test, in English or Spanish, and it takes about four minutes.
 
-Forty photographs of eyes. For each one you see four words and pick the one that fits what the person is thinking or feeling. It is the first open set of its kind, made so anyone can take it, study it or build on it.
+Every photograph is an AI image, made from a written description of a person and the feeling in their eyes. [Read the full method](https://neuropsych.io/reading-the-eyes/method/).
 
-## How the photographs were made
+## Licences and credit
 
-Each photograph was generated from a written description of a person and an expression. Three takes were made under different light, each one was reviewed, and one was kept. No real person appears in any of them. [Read the full method](https://neuropsych.io/reading-the-eyes/method/).
+Everything in `images/` and `assets/` is CC0 1.0. `items.json`, `items.csv` and `prompts.md` are CC BY 4.0, with credit to Neuropsych.
 
-## Use it
+Cite as: Neuropsych (2026). Reading the Eyes, version 1.0.0. https://github.com/cristiandominguezrl/reading-the-eyes
 
-- **Images** (`images/`): CC0 1.0. No conditions.
-- **Words, glossaries, item file and statistics**: CC BY 4.0. Credit Neuropsych.
-
-Cite as: Neuropsych (2026). Reading the Eyes: an open eyes-only emotion reading test. https://github.com/cristiandominguezrl/reading-the-eyes
-
-Downloads and details: https://neuropsych.io/reading-the-eyes/download/
-
-The format comes from the Reading the Mind in the Eyes Test by Baron-Cohen, Wheelwright, Hill, Raste and Plumb (2001); no photograph, word or item is taken from it.
+The format comes from the Reading the Mind in the Eyes Test by [Baron-Cohen, Wheelwright, Hill, Raste and Plumb (2001)](https://doi.org/10.1111/1469-7610.00715).
 
 ## Files
 
 | Path | What it holds |
 |------|---------------|
-| `items.json` | The 40 items and the practice item, with words and glossaries in English and Spanish. |
-| `items.csv` | One row per item: the right word and three others, in both languages. |
-| `prompts.md` | The written description behind every photograph. |
-| `images/1200x480/` | The 41 photographs as shown on neuropsych.io (1200 by 480, grayscale). |
+| `items.json` | The four words for every photograph, one practice photograph included, with their meanings in English and Spanish, and a short note on the person and the expression. |
+| `items.csv` | The same words as a table, one row per photograph, without the practice photograph. |
+| `prompts.md` | The full text every photograph was made from. |
+| `images/1200x480/` | The photographs as shown on neuropsych.io (1200 by 480, black and white). |
 | `images/full/` | The same photographs at full size (1983 by 793). |
 | `assets/` | Banner and gallery images for this page. |
 | `LICENSE-IMAGES.md`, `LICENSE-DATA.md` | The two licences. |
 | `CHANGELOG.md` | Release history. |
-
-Item statistics will be added here.

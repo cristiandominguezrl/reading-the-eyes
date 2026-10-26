@@ -1,4 +1,4 @@
-This licence covers everything in the images/ folder.
+This licence covers everything in the images/ and assets/ folders.
 
 Creative Commons Legal Code
 
